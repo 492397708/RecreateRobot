@@ -1,7 +1,7 @@
 package Main.Class;
 
 import Main.Class.User;
-import Main.Data.staticData;
+import Main.Data.StaticData;
 import Main.Main;
 import net.mamoe.mirai.contact.Contact;
 import net.mamoe.mirai.contact.Group;

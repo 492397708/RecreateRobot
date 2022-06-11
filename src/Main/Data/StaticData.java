@@ -7,7 +7,7 @@ import net.mamoe.mirai.utils.BotConfiguration;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-public class staticData {
+public class StaticData {
 
     public Bot bot = BotFactory.INSTANCE.newBot(501864196, "tank:1998", new BotConfiguration() {{
         fileBasedDeviceInfo(); // 使用 device.json 存储设备信息

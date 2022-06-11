@@ -1,7 +1,7 @@
 package Main.Utils;
 
 import Main.Class.Event;
-import Main.Data.staticData;
+import Main.Data.StaticData;
 import Main.Main;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;

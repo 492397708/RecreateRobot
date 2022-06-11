@@ -2,7 +2,7 @@ package Main;
 
 import Main.Class.Event;
 import Main.Class.User;
-import Main.Data.staticData;
+import Main.Data.StaticData;
 import Main.Utils.DataUtil;
 import Main.Utils.InitUtil;
 
@@ -22,7 +22,7 @@ import java.io.IOException;
 @SpringBootApplication
 public class Main {
 
-    public static staticData staticData = new staticData();
+    public static StaticData staticData = new StaticData();
 
 
     public static void main(String[] args) throws IOException, ClassNotFoundException, InstantiationException, IllegalAccessException {
