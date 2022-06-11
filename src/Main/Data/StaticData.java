@@ -5,9 +5,10 @@ import net.mamoe.mirai.BotFactory;
 import net.mamoe.mirai.utils.BotConfiguration;
 
 
+import java.io.Serializable;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class StaticData {
+public class StaticData implements Serializable {
 
     public Bot bot = BotFactory.INSTANCE.newBot(501864196, "tank:1998", new BotConfiguration() {{
         fileBasedDeviceInfo(); // 使用 device.json 存储设备信息

@@ -7,9 +7,10 @@ import net.mamoe.mirai.contact.Contact;
 import net.mamoe.mirai.contact.Group;
 
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public abstract class Event {
+public abstract class Event implements Serializable {
     /**
      * 包含了所有的可以使用的群组
      */
